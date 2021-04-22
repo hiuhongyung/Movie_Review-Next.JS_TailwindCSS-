@@ -1,0 +1,3 @@
+[submodule "Movie_Review"]
+	path = Movie_Review
+	url = git@github.com:hiuhongyung/Movie_Review.git
