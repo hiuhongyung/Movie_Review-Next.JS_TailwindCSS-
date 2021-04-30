@@ -5,6 +5,7 @@ import EventSummary from "../../../components/event-detail/event-summary";
 import EventLogistics from "../../../components/event-detail/event-logistics";
 import EventContent from "../../../components/event-detail/event-content";
 import Header from "../../../components/Header";
+import Comments from "../../../components/input/comments";
 
 function SingleEvent() {
   const router = useRouter();
@@ -29,6 +30,7 @@ function SingleEvent() {
       <EventContent>
         <p>{event.description}</p>
       </EventContent>
+      <Comments eventId={event.id} /> 
     </Fragment>
   );
 }
